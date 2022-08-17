@@ -29,15 +29,15 @@ class AdamMotionAndRangefinders():
     # if isTest=True and sensorId == 17 or 103 returned example test arreay [sensorId, 10, 20, 30]
     def setMotion(self, sensorId,  speed1, speed2, isTest=False):
         
-        if sensorId != 17 and sensorId != 103
+        if sensorId != 17 and sensorId != 103:
             self._motion(0, speed1, speed2)
-        else
+        else:
             data = self._motion(sensorId, speed1, speed2, 255)
             
             if isTest:
                 data = [sensorId, 10, 20, 30]
                 return data
-            else
+            else:
                 return data
 
     # return [0, 0, 0, 0]
