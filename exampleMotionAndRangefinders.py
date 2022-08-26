@@ -1,5 +1,5 @@
 import time
-from controlMotionAndRangefinders import AdamMotionAndRangefinders
+from motionAndRangefinders import MotionAndRangefinders
 
 
 pp=AdamMotionAndRangefinders()
