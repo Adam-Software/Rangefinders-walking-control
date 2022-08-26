@@ -4,7 +4,7 @@
 import time
 from Serial.serialPi import SerialU
 
-class AdamMotionAndRangefinders():
+class MotionAndRangefinders():
 
     def __init__(self):
         super().__init__()
