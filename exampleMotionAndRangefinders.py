@@ -2,7 +2,7 @@ import time
 from motionAndRangefinders import MotionAndRangefinders
 
 
-pp=AdamMotionAndRangefinders()
+pp = MotionAndRangefinders()
 
 #имитация возврата резульатов, имитирующих реальные данные [103, 10, 20, 30]
 left_sensor = pp.getDistance(17, True)
