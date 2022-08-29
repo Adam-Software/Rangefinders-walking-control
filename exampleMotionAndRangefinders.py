@@ -71,7 +71,7 @@ motion = pp.setMotion(103, 2000, 2000, True, True)
 print(motion)
 
 #едем вперед и указываем неверный сенсор
-print('Call motion with sensor 160 speed1 = 2000 and speed2 = 2000 and return None') 
+print('Call motion with sensor 160 speed1 = 2000 and speed2 = 2000 and return [0, 0, 0, 0]') 
 time.sleep(0.1)
 motion = pp.setMotion(160, 2000, 2000, True)
 print(motion)
