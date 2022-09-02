@@ -1,5 +1,5 @@
 import time
-from src.motionAndRangefinders import MotionAndRangefinders
+from motionAndRangefinders import MotionAndRangefinders
 
 
 pp = MotionAndRangefinders()
