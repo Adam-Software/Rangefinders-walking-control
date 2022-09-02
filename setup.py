@@ -5,7 +5,7 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setup(
     name='Rangefinders-walking-control',
-    version='0.1.2',
+    version='0.1.3',
     packages=['MotionAndRangefingers'],
     url='https://github.com/Adam-Software/Rangefinders-walking-control',
     license='MIT',
@@ -19,7 +19,6 @@ setup(
         'Development Status :: 2 - Pre-Alpha',
         'License :: OSI Approved :: MIT License',
         'Operating System :: POSIX :: Other',
-        'Programming Language :: C',
         'Programming Language :: Python :: 3'
     ]
 )
