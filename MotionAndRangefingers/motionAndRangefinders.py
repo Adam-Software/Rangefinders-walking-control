@@ -19,7 +19,7 @@ class MotionAndRangefinders():
         if isTest:
             return [sensorId, 10, 20, 30]
         else:
-            return self._motion(sensorId, 0, 0)
+            return self._motion(sensorId, 0, 0, 255)
 
     
     # if enableRangefinders == True
